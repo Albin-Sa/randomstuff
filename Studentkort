@@ -12,3 +12,4 @@ jQuery('body').append('<iframe src="https://studentkortet.go2cloud.org/aff_l?off
 </script>
 
 <!-- // This only shows the ID and total price and doesnt remove the tax or shipping cost -->
+<!-- // https://monosnap.com/direct/Y215rPu5BQlLdX02fGuj1nkifRAl80 -->
