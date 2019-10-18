@@ -1,0 +1,14 @@
+<!-- Offer Conversion: put in order comfirmation page -->
+<iframe src="https://studentkortet.go2cloud.org/aff_l?offer_id=45&adv_sub=SUB_ID&amount=AMOUNT" scrolling="no" frameborder="0" width="1" height="1"></iframe>
+<!-- // Sub_ID = orderID -->
+<!-- // amount = price - tax - shipping -->
+
+<!-- // Our current jQuerry -->
+
+<script>
+jQuery('body').append('<iframe src="https://studentkortet.go2cloud.org/aff_l?offer_id=45&adv_sub=' + 
+[dataLayer[0].ecommerce.purchase.actionField.id]+'&amount=' + 
+[dataLayer[0].ecommerce.purchase.actionField.revenue] + ' scrolling="no" frameborder="0" width="1" height="1""></iframe>');
+</script>
+
+<!-- // This only shows the ID and total price and doesnt remove the tax or shipping cost -->
